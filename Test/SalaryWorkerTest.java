@@ -13,12 +13,12 @@ class SalaryWorkerTest {
 
     @Test
     void calculateWeeklyPayTest() {
-        assertEquals(560.0, james.calculateWeeklyPay(29120.0));
+        assertEquals(560.0, james.calculateWeeklyPay(40));
     }
 
     @Test
     void displayWeeklyPayTest() {
-        assertEquals("Weekly pay (1/52th of annual salary, 29120.0) is 560.0.", james.displayWeeklyPay(29120.0));
+        assertEquals("Weekly pay (1/52th of annual salary, 29120.0) is 560.0.", james.displayWeeklyPay(40));
     }
 
     @Test

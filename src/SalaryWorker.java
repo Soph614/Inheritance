@@ -1,13 +1,6 @@
 public class SalaryWorker extends Worker {
     double annualSalary;
 
-    @Override
-    public String toString() {
-        return "SalaryWorker{" + super.toString() +
-                ", annualSalary=" + annualSalary +
-                '}';
-    }
-
     /**
      * Person
      * Makes a person data record based on an inputted
@@ -25,14 +18,21 @@ public class SalaryWorker extends Worker {
         this.annualSalary = annualSalary;
     }
     @Override
-    public double calculateWeeklyPay(double annualSalary) {
+    public double calculateWeeklyPay(double hoursWorked) {
         return annualSalary/52;
     }
 
     @Override
-    public String displayWeeklyPay(double annualSalary) {
+    public String displayWeeklyPay(double hoursWorked) {
         double weeklyPay = annualSalary/52;
         return "Weekly pay (1/52th of annual salary, " + annualSalary + ") is " + weeklyPay + ".";
+    }
+
+    @Override
+    public String toString() {
+        return "SalaryWorker{" + super.toString() +
+                ", annualSalary=" + annualSalary +
+                '}';
     }
 
     @Override
