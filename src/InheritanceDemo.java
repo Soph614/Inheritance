@@ -41,57 +41,5 @@ public class InheritanceDemo {
             }
             System.out.println();
         }
-
-        /*
-        System.out.println();
-        System.out.println("WEEK 1: 40 hours");
-        double hoursWorked = 40;
-        jamesPay = james.calculateWeeklyPay(hoursWorked);
-        System.out.printf("%-20s %8s\n", james.fullName(), jamesPay);
-        joycePay = joyce.calculateWeeklyPay(hoursWorked);
-        System.out.printf("%-20s %8s\n", joyce.fullName(), joycePay);
-        jillPay = jill.calculateWeeklyPay(hoursWorked);
-        System.out.printf("%-20s %8s\n", jill.fullName(), jillPay);
-        jeffPay = jeff.calculateWeeklyPay(jeff.annualSalary);
-        System.out.printf("%-20s %8s\n", jeff.fullName(), jeffPay);
-        jamiePay = jamie.calculateWeeklyPay(jamie.annualSalary);
-        System.out.printf("%-20s %8s\n", jamie.fullName(), jamiePay);
-        ericPay = eric.calculateWeeklyPay(eric.annualSalary);
-        System.out.printf("%-20s %8s\n", eric.fullName(), ericPay);
-
-        System.out.println();
-        System.out.println("WEEK 2: 50 hours");
-        hoursWorked = 50;
-        jamesPay = james.calculateWeeklyPay(hoursWorked);
-        System.out.printf("%-20s %8s\n", james.fullName(), jamesPay);
-        joycePay = joyce.calculateWeeklyPay(hoursWorked);
-        System.out.printf("%-20s %8s\n", joyce.fullName(), joycePay);
-        jillPay = jill.calculateWeeklyPay(hoursWorked);
-        System.out.printf("%-20s %8s\n", jill.fullName(), jillPay);
-        jeffPay = jeff.calculateWeeklyPay(jeff.annualSalary);
-        System.out.printf("%-20s %8s\n", jeff.fullName(), jeffPay);
-        jamiePay = jamie.calculateWeeklyPay(jamie.annualSalary);
-        System.out.printf("%-20s %8s\n", jamie.fullName(), jamiePay);
-        ericPay = eric.calculateWeeklyPay(eric.annualSalary);
-        System.out.printf("%-20s %8s\n", eric.fullName(), ericPay);
-
-        System.out.println();
-        System.out.println("WEEK 3: 40 hours");
-        hoursWorked = 40;
-        jamesPay = james.calculateWeeklyPay(hoursWorked);
-        System.out.printf("%-20s %8s\n", james.fullName(), jamesPay);
-        joycePay = joyce.calculateWeeklyPay(hoursWorked);
-        System.out.printf("%-20s %8s\n", joyce.fullName(), joycePay);
-        jillPay = jill.calculateWeeklyPay(hoursWorked);
-        System.out.printf("%-20s %8s\n", jill.fullName(), jillPay);
-        jeffPay = jeff.calculateWeeklyPay(jeff.annualSalary);
-        System.out.printf("%-20s %8s\n", jeff.fullName(), jeffPay);
-        jamiePay = jamie.calculateWeeklyPay(jamie.annualSalary);
-        System.out.printf("%-20s %8s\n", jamie.fullName(), jamiePay);
-        ericPay = eric.calculateWeeklyPay(eric.annualSalary);
-        System.out.printf("%-20s %8s\n", eric.fullName(), ericPay);
-
-         */
-
     }
 }
