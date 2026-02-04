@@ -27,11 +27,13 @@ public class InheritanceDemo {
             double hoursForWeek = hoursPerWeek.get(i);
             int iPlusOne = i + 1; // So week one shows up as 1 and not 0, and so on.
             System.out.println("WEEK " + iPlusOne + " (" + hoursForWeek + " hours):");
+            System.out.println("=============================");
             for (int j = 0; j < workerRecords.size(); j++) {
                 Worker worker = workerRecords.get(j);
                 double workerPay = worker.calculateWeeklyPay(hoursForWeek);
                 System.out.printf("%-20s %8s\n", worker.fullName(), workerPay);
             }
+            System.out.println("=============================");
             System.out.println();
         }
     }
