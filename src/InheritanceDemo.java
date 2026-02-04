@@ -4,13 +4,6 @@ import java.util.Iterator;
 public class InheritanceDemo {
     public static void main (String[] args) {
         ArrayList<Worker> workerRecords = new ArrayList<>();
-        boolean done = false;
-        double jamesPay;
-        double joycePay;
-        double jillPay;
-        double jeffPay;
-        double jamiePay;
-        double ericPay;
         Worker james = new Worker("123451", "James", "Falcon", "Mr.", 1942, 14.00);
         Worker joyce = new Worker("123452", "Joyce", "Falcon", "Mrs.", 1944, 10.0);
         Worker jill = new Worker("123455", "Jill", "Falcon", "Ms.", 1974, 14.00);
