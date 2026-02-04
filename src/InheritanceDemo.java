@@ -23,13 +23,13 @@ public class InheritanceDemo {
         hoursPerWeek.add(40.0); // week 3
 
 
-        for(int i=0; i < hoursPerWeek.size(); i++) {
-            double hoursForWeek = hoursPerWeek.get(i);
-            int iPlusOne = i + 1; // So week one shows up as 1 and not 0, and so on.
-            System.out.println("WEEK " + iPlusOne + " (" + hoursForWeek + " hours):");
+        for(int weekIndex=0; weekIndex < hoursPerWeek.size(); weekIndex++) {
+            double hoursForWeek = hoursPerWeek.get(weekIndex);
+            int weekIndexPlusOne = weekIndex + 1; // So week one shows up as 1 and not 0, and so on.
+            System.out.println("WEEK " + weekIndexPlusOne + " (" + hoursForWeek + " hours):");
             System.out.println("=============================");
-            for (int j = 0; j < workerRecords.size(); j++) {
-                Worker worker = workerRecords.get(j);
+            for (int workerIndex = 0; workerIndex < workerRecords.size(); workerIndex++) {
+                Worker worker = workerRecords.get(workerIndex);
                 double workerPay = worker.calculateWeeklyPay(hoursForWeek);
                 System.out.printf("%-20s %8s\n", worker.fullName(), workerPay);
             }
